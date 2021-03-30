@@ -1,0 +1,35 @@
+plugins {
+    application
+    kotlin("jvm") version "1.3.61"
+}
+application {
+    mainClass.set("MainKt")
+}
+dependencies{
+    implementation(kotlin("stdlib"))
+    //多个库依赖同一个第三方lib，(例如1.1, 1.2, 1.3)会将所有库都依赖到最新的lib(例如1.3)
+    //遇到包冲突，可以使用exclude去掉某个库依赖的包
+}
+repositories{
+    mavenCentral()
+    jcenter()
+}
+
+//扩展函数，删除
+task("myDelete", Delete::class) {
+    setDelete("info.txt")
+}
+
+//打jar包
+task("myJar", Jar::class) {
+    from("src")
+    into("src.jar")
+}
+
+//调用外部java函数，当前目录下，Main.class
+task("callJava"){
+    javaexec{
+        main = "Main"
+        classpath(".")
+    }
+}

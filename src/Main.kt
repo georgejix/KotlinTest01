@@ -6,4 +6,5 @@ fun main(args: Array<String>) {
     var animal1  = Animal.Dog();
     var animal2 = Animal.Cat();
     animal1.say();
+    animal1 eat "bread"
 }

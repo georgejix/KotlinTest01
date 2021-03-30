@@ -1,0 +1,46 @@
+plugins{
+    java
+}
+
+//增量编译
+task("getSrcCount"){
+    //当输入和输出文件、文件夹并没有发生修改时，task不会重新执行
+    inputs.dir("src");
+    outputs.files("info.txt");
+    doFirst{
+        var fileDir = fileTree("src");
+        var fileInfo = file("info.txt");
+        fileInfo.writeText("");
+        fileDir.forEach {
+            if (it.isFile) {
+                Thread.sleep(1000);
+                fileInfo.appendText(it.absolutePath);
+                fileInfo.appendText("\r\n");
+            }
+        }
+    }
+}
+
+task，依赖
+task("hello word1") {
+    //扫描时执行
+    println("hello word1 will execute")
+    doFirst{
+        //运行时执行
+        println("hello word1")
+    }
+    doLast{
+        //运行时执行
+        println("hello word1 end")
+    }
+}
+task("hello word2") {
+    doFirst{
+        println("hello word2")
+    }
+}.dependsOn("hello word1")
+task("hello word3") {
+    doFirst{
+        println("hello word3")
+    }
+}.dependsOn("hello word2")
