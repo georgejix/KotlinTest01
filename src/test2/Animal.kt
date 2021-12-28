@@ -1,3 +1,5 @@
+package test2
+
 sealed class Animal {
     fun say() {
         println("say");

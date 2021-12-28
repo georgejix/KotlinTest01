@@ -1,10 +1,11 @@
-fun main(args: Array<String>) {
-    println("kotlin demo main");
-    var father = Father();
-    father.wash();
+import test1.Test1_2
+import test1.Test1_3
 
-    var animal1  = Animal.Dog();
-    var animal2 = Animal.Cat();
-    animal1.say();
-    animal1 eat "bread"
+fun main(args: Array<String>) {
+//    Test1().test()
+//    Test1_2().test()
+    Test1_3().test()
+
+
+//    Test2().test2()
 }

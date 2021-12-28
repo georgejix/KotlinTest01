@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf49f7f-fa6b-456c-a401-c24cf3ddb47f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +14,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1qJr4LmPwZUykcOaz8dFEpwDtkM" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -25,11 +30,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/note" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KotlinDemo" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="test2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/note" />
     </key>
@@ -81,5 +89,43 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="619" y="298" key="#Notifications" timestamp="1640569231209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="298" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1640569231209" />
+    <state x="688" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1640676110055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1640676110055" />
+    <state x="677" y="218" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1640589701102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="218" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1640589701102" />
+    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1639982825106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1639982825106" />
+    <state width="585" height="879" key="GridCell.Tab.0.bottom" timestamp="1640682323560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="585" height="879" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640682323560" />
+    <state width="585" height="879" key="GridCell.Tab.0.center" timestamp="1640682323560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="585" height="879" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640682323560" />
+    <state width="585" height="879" key="GridCell.Tab.0.left" timestamp="1640682323560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="585" height="879" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640682323560" />
+    <state width="585" height="879" key="GridCell.Tab.0.right" timestamp="1640682323560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="585" height="879" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640682323560" />
+    <state x="329" y="77" key="SettingsEditor" timestamp="1640573771441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="329" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1640573771441" />
   </component>
 </project>
