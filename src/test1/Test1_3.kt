@@ -77,6 +77,48 @@ class Test1_3 {
         var value = 123
         value?.let { println("value not null") }
 
+        //try catch
+        var a = try {
+            1 + 1
+        } catch (e: Exception) {
+            3
+        }
+        println(a)
+
+        //if表达式
+        println(if1(3))
+
+        var intArray1 = IntArray(3).apply { fill(-1) }
+        intArray1.forEach { print(it) }
+        println()
+
+        //对一个对象调用多个方法
+        var person = Person("张三")
+        with(person) {
+            eat()
+            speak()
+        }
+    }
+
+    class Person(n: String) {
+        var name: String = n
+        fun eat() {
+            println("$name eat")
+        }
+
+        fun speak() {
+            println("$name speak")
+        }
+    }
+
+    fun if1(input: Int): String {
+        return if (1 == input) {
+            "one"
+        } else if (2 == input) {
+            "two"
+        } else {
+            "more than two"
+        }
     }
 
     object Name {
