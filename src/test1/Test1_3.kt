@@ -5,7 +5,51 @@ import java.io.File
 class Test1_3 {
     fun test() {
 //        testClass()
-        常用代码()
+//        常用代码()
+//        test1()
+        test2()
+    }
+
+    fun test2() {
+        var a:Int? = null
+        var b = a ?: return
+        println("bbb")
+    }
+
+    fun test1() {
+        val a: Int = 2
+        val b: Long = 1
+        println(a.equals(b))
+        println(1.5 in 1.0..2.0)
+
+        val str: String = "abcdrfg"
+        println(str[2])
+        for (c in str) {
+            print(c)
+        }
+        println()
+        println(str.reversed())
+
+        //if 的分支可以是代码块， 最后的表达式作为该块的值
+        val max = if (a > b) {
+            print("Choose a")
+            a
+        } else {
+            print("Choose b")
+            b
+        }
+        println()
+
+        var c = when (max) {
+            a, 2 -> println("a")
+            else -> null
+        }
+        println(c)
+        var d = when {
+            max == 2 -> println("a")
+            else -> null
+        }
+        println(d)
     }
 
     fun 常用代码() {
