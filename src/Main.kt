@@ -8,7 +8,11 @@ fun main(args: Array<String>) {
 //    Test1_5().test()
 //    Test1_6().test()
 //    Test1_7().test()
-    Test1_8().test()
+//    Test1_8().test()
+//    Test1_9().test()
+//    Test1_10().test()
+//    Test1_11().test()
+    Test1_12().test()
 
 
 //    Test2().test2()
