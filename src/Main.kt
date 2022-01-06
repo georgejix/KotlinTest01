@@ -12,7 +12,9 @@ fun main(args: Array<String>) {
 //    Test1_9().test()
 //    Test1_10().test()
 //    Test1_11().test()
-    Test1_12().test()
+//    Test1_12().test()
+//    Test1_13().test()
+    Test1_14().test()
 
 
 //    Test2().test2()
