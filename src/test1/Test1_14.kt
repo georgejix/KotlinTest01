@@ -12,5 +12,17 @@ class Test1_14 {
         var a = "123"
         var b = a.length ?: -1
         println("b=$b")
+
+        testLocalWith()
+    }
+
+    fun <T> localWith(t: T, body: T.(a: Int) -> Unit) {
+        t.body(11)
+    }
+
+    fun testLocalWith() {
+        localWith(Test1_14()) { a -> println("$a") }
+        localWith(Test1_14()) { println("$it") }
+        with(Test1_14()) { println("iii") }
     }
 }

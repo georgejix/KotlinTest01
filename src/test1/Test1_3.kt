@@ -5,9 +5,9 @@ import java.io.File
 class Test1_3 {
     fun test() {
 //        testClass()
-//        常用代码()
+        常用代码()
 //        test1()
-        test2()
+//        test2()
     }
 
     fun test2() {
